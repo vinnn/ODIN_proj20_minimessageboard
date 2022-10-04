@@ -8,7 +8,7 @@ This project is to practice the concepts learned in the Odin Project - Full Stac
 ## Concepts covered
 - Express, ESJ
 - Heroku
-(- HTML5, CSS, Javascript)
+- (HTML5, CSS, Javascript)
 - Git/Github
 
 ## View page
