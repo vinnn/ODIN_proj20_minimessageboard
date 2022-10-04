@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TITLELLL</title>
+    <link rel='stylesheet' href='/public/stylesheets/style.css' />
+  </head>
+  <body>
+
+
+    <form method="POST" action="/new">
+        <label>Author
+            <input type="text" name="author" value="<%= locals.author %>" />
+        </label>
+        <label>Message
+            <input type="text" name="message" value="<%= locals.message %>" />
+        </label>
+        <button type="submit">Submit</button>    
+    </form>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.div-msg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid blue;
+}
+.div-useranddate {
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/public/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <div class="div-new-msg">
+      <a href="./new">create new message</a>
+    </div>
+
+    <div>
+      <% messages.forEach( function(msg) { %>
+        <div class="div-msg"> 
+          <div class="div-text"> <%= msg.text %> </div>
+          <div class="div-useranddate">
+              <div class="div-user"> from : <%= msg.user %> </div>
+              <div class="div-date"> <%= msg.added %> </div>
+          </div>
+        </div>
+      <% }); %>
+
+
+    </div>
+
+
+
+
+  </body>
+</html>
